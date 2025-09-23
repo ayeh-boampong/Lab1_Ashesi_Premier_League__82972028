@@ -150,17 +150,7 @@ public class AshesiPremierLeague {
         System.out.println("Next Year Age (increment demo): " + nextYearAge);
 
 
-        System.out.println(" Fall-through");
-        int demoNumber = 2;
-        switch (demoNumber) {
-            case 1:
-                System.out.println("Case 1 executed");
-            case 2:
-                System.out.println("Case 2 executed ");
-            case 3:
-                System.out.println("Case 3 executed ");
-            default:
-                System.out.println("Default executed ");
+        
         }
 
     }
