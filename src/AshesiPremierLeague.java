@@ -82,41 +82,6 @@ public class AshesiPremierLeague {
         }
 
 
-        switch (jerseyNo) {
-            case 2:
-                System.out.println("Position: Defender");
-            case 6:
-                System.out.println("Position: Midfielder");
-            case 7:
-                System.out.println("Position: Winger");
-                break;
-            default:
-                System.out.println("Player position not known");
-        }
-
-        switch (jerseyNo) {
-            case 2: case 5:
-                System.out.println("Position: Defender");
-                break;
-            case 6: case 8:
-                System.out.println("Position: Midfielder");
-                break;
-            case 7: case 11:
-                System.out.println("Position: Winger");
-                break;
-            case 1:
-                System.out.println("Position: Goalkeeper");
-                break;
-            case 9:
-                System.out.println("Position: Striker");
-                break;
-            case 10:
-                System.out.println("Position: Playmaker");
-                break;
-            default:
-                System.out.println("Player position not known");
-        }
-
         if (PlayerCategory.contains("Prime Player")) {
             if (roundweight_kg < 80) {
                 System.out.println("Decision: Starting Lineup");
@@ -151,7 +116,7 @@ public class AshesiPremierLeague {
 
 
         
-        }
+        
 
     }
 }
